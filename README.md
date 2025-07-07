@@ -146,6 +146,49 @@
 
 - 위 진도표에 맞춰 미션 및 공부한 내용을 정리하고 깃허브에 올린다.
 - 주 1회 공부한 내용을 바탕으로 퀴즈 및 토론한다.
+- 실습 및 기록 방법은 다음과 같다.
+    
+    `설치`
+    
+    ```bash
+    npm init
+    npm i @types/node
+    sudo npm i -g tsx
+    sudo npm i -g typescript
+    tsc --init
+    ```
+    
+    `폴더 구조`
+    
+    ```bash
+    **(실습 코드)**
+    ├── eesoyeon/
+    │   └── section1/
+    │       └── src/ 
+    │           └── index.ts  # 실습 파일	
+    │   └── section2/  
+    │       └── src/ 
+    │           └── index.ts  # 실습 파일	 
+    ├── meteorqz6/  
+    │   └── section1/
+    │       └── src/ 
+    │           └── index.ts  # 실습 파일	
+    │   └── section2/ 
+    │       └── src/ 
+    │           └── index.ts  # 실습 파일	 
+    
+    **(마크다운 파일)**
+    ├── README/
+    │   └── Day1/
+    │       └── 이소연.md	
+    │       └── 남유성.md	
+    ```    
+    `실습 코드 실행 방법`
+    ```bash
+    각자 이름 안에 해당하는 섹션 src 폴더 안에 있는 파일 컴파일하기
+    >> cd eesoyeon/section1/src
+    >> tsc 
+    ```
 - 벌금
     - 일주일 기준으로 검사
     - 깃허브에 안 올릴 시, Day 하나당 5000원
