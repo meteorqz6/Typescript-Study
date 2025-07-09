@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "esnext",
+    "module": "NodeNext", // ✅ Node 환경이므로 NodeNext로 바꾸는 것이 안정적
+    "moduleResolution": "NodeNext", // ✅ 함께 설정
     "outDir": "dist",
     "strict": true,
     "moduleDetection": "force"
